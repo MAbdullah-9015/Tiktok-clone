@@ -46,10 +46,11 @@ android {
     defaultConfig {
         applicationId "com.example.tiktok_clone"
         minSdkVersion 21
+        multiDexEnabled true
         targetSdkVersion flutter.targetSdkVersion
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
-        multiDexEnabled true
+        
     }
 
     buildTypes {

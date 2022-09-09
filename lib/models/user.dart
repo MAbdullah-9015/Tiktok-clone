@@ -6,16 +6,15 @@ class User {
   String email;
   String uid;
 
-  User({
-    required this.name,
-    required this.email,
-    required this.uid,
-    required this.profilePhoto,
-  });
+  User(
+      {required this.name,
+      required this.email,
+      required this.uid,
+      required this.profilePhoto});
 
   Map<String, dynamic> toJson() => {
         "name": name,
-        "profilrPhoto": profilePhoto,
+        "profilePhoto": profilePhoto,
         "email": email,
         "uid": uid,
       };
